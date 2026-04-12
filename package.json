@@ -1,8 +1,8 @@
 {
-  "name": "devaloka",
+  "name": "node-backend-base",
   "version": "1.0.0",
-  "description": "devaloka-project",
-  "main": "prettier.config.js",
+  "description": "Template padrão para APIs em Node.js focado em arquitetura escalável. Inclui Fastify, TypeScript, Injeção de Dependência e Logs estruturados.",
+  "main": "src/index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "node -r dotenv/config -r ts-node/register src/index.ts",

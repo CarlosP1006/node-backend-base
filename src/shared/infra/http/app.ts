@@ -17,9 +17,9 @@ const app = fastify({
 app.register(fastifySwagger, {
   swagger: {
     info: {
-      title: 'Devaloka API',
+      title: 'Node Backend Base',
       version: '1.0.0',
-      description: 'Base project for Devaloka services',
+      description: 'API do template padrão Node.js',
     },
   },
 });
