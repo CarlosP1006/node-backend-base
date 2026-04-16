@@ -1,4 +1,4 @@
-# node-backend-base 🚀
+# node-backend-base
 
 **Template profissional para APIs em Node.js** com arquitetura escalável, pronta para produção e foco em produtividade.
 
