@@ -1,5 +1,6 @@
 import { FastifyInstance } from 'fastify';
+import { randomHandler } from '../../handlers/randomHandler';
 
 export async function moduleRouter(app: FastifyInstance): Promise<void> {
-  void app;
+  app.get('/random', randomHandler);
 }

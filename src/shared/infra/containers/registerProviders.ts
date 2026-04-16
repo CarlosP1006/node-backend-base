@@ -1,5 +1,9 @@
-import { AwilixContainer } from 'awilix';
+import { asClass, AwilixContainer } from 'awilix';
+import { RandomProvider } from '../../../modules/providers/implementations/randomProvider';
 
 export function registerProviders(container: AwilixContainer): void {
-  void container;
+  container.register(
+    'randomProvider',
+    asClass(RandomProvider, { lifetime: 'SINGLETON' }),
+  );
 }
